@@ -1,0 +1,6 @@
+
+This is a sample file
+
+With some emply lines between and an NL \n in the middle
+
+Finished by an empty line

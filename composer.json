@@ -1,0 +1,25 @@
+{
+    "name": "max13/base-parser",
+    "description": "Base file for max13's parsers",
+    "version": "v1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["parser"],
+    "authors": [
+        {
+            "name": "Adnan RIHAN",
+            "email": "adnan@rihan.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "MX\\" : "src/"
+        },
+        "files": [
+            "src/Parser/Helpers.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
